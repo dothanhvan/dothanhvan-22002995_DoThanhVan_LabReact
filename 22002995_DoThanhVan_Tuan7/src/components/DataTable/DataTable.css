@@ -1,0 +1,123 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  font-size: smaller;
+}
+
+.table-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.table-title span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-bg {
+  padding: 0;
+  padding-bottom: 0px;
+  background-color: white;
+  border: none;
+
+  transition: transform 0.2s ease;
+}
+
+.button-bg:hover {
+  transform: translateY(-4px);
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.data-table {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.data-table th {
+  color: rgb(95, 95, 95);
+}
+
+.data-table td:nth-child(6),
+.data-table th:nth-child(6) {
+  text-align: center;
+}
+
+.data-table > tbody > tr > td {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.data-table > thead > tr > th {
+  border-bottom: 1px solid rgb(240, 240, 240);
+  padding-bottom: 5px;
+}
+
+.status {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.status.new {
+  background-color: rgb(230, 230, 255);
+  color: rgb(75, 75, 255);
+}
+
+.status.in-progress {
+  background-color: rgb(255, 251, 230);
+  color: rgb(159, 151, 0);
+}
+
+.status.completed {
+  background-color: rgb(232, 255, 230);
+  color: green;
+}
+
+.table-below {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-results {
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.table-page {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(134, 134, 134);
+}
+
+.table-page > div:nth-child(2) {
+  border-radius: 20px;
+  background-color: rgb(254, 103, 128);
+  padding: 4px 11px 4px 11px;
+  color: white;
+}

@@ -1,0 +1,51 @@
+/*StatisticCard*/
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.money {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.detail-content > div {
+    color: rgb(95, 255, 47);
+}
+
+.detail-content {
+    display: flex;
+    font-size: smaller;
+    gap: 5px;
+}
+
+.pink-bg {
+    background-color: rgb(255, 245, 247);
+}
+
+.blue-bg {
+    background-color: #edf8fe; 
+}
+
+.green-bg {
+    background-color: #edf8fe;
+}

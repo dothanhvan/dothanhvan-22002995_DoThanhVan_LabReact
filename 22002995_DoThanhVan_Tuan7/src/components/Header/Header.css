@@ -1,0 +1,19 @@
+
+.header-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(252, 80, 138);
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

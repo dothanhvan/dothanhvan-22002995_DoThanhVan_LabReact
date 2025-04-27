@@ -1,0 +1,33 @@
+/*Menu*/
+.menu-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0px 0px 15px 15px;
+}
+
+.menu-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: start;
+}
+
+.menu-title > p {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.update-announce {
+  margin-top: auto;
+  padding: 16px;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+/*Menu Card*/
+.menu-card-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 250px;
+  padding: 8px;
+}
+
+.menu-card-container.active {
+  background-color: rgba(255, 83, 111, 0.938);
+  color: white;
+}
