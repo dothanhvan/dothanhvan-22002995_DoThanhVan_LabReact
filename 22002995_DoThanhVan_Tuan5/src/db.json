@@ -1,0 +1,52 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Áo thun nam",
+        "price": 199000,
+        "description": "Áo thun nam chất liệu cotton, thoáng mát, thấm hút mồ hôi tốt. Phù hợp cho mùa hè và có thể kết hợp với nhiều loại quần khác nhau.",
+        "category": "quần áo",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Quần jean nữ",
+        "price": 359000,
+        "description": "Quần jean nữ dáng skinny, co giãn tốt, tôn dáng người mặc. Có thể kết hợp với nhiều loại áo và phụ kiện khác nhau.",
+        "category": "quần áo",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Laptop Asus VivoBook",
+        "price": 15990000,
+        "description": "Laptop Asus VivoBook với CPU Intel Core i5, RAM 8GB, SSD 512GB, màn hình 15.6 inch Full HD. Phù hợp cho công việc văn phòng và học tập.",
+        "category": "điện tử",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Điện thoại Samsung Galaxy",
+        "price": 7990000,
+        "description": "Điện thoại Samsung Galaxy với màn hình Super AMOLED, camera chất lượng cao, pin dung lượng lớn. Hiệu năng mạnh mẽ cho mọi nhu cầu sử dụng.",
+        "category": "điện tử",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Giày thể thao Nike",
+        "price": 1890000,
+        "description": "Giày thể thao Nike với thiết kế hiện đại, đế êm ái, phù hợp cho các hoạt động thể thao và đi lại hàng ngày.",
+        "category": "giày dép",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Balo laptop",
+        "price": 599000,
+        "description": "Balo laptop với nhiều ngăn tiện lợi, chống sốc tốt, chất liệu bền bỉ và thiết kế thời trang.",
+        "category": "phụ kiện",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      }
+    ]
+  }
