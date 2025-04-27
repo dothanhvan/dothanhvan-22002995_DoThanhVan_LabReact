@@ -1,0 +1,42 @@
+.recipe-of-the-day {
+  background-image: url("../../assets/banner.png"); /* Đường dẫn tới ảnh banner.png */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: #fff;
+  height: 400px;
+  position: relative;
+}
+
+.recipe-card {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 400px;
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+  font-size: 1.5rem;
+  color: #f44b87;
+}
+
+.recipe-card p {
+  margin: 1rem 0;
+  color: #555;
+}
+
+.recipe-card button {
+  padding: 0.5rem 1rem;
+  background-color: #f44b87;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

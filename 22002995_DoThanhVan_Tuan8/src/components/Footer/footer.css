@@ -1,0 +1,48 @@
+.footer {
+  padding: 2rem;
+  background-color: #1d2128;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.footer input {
+  width: 300px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  background-color: white;
+  color: black;
+}
+
+.footer button {
+  padding: 0.5rem 1rem;
+  background-color: #f44b87;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+  color: #ccc;
+  cursor: pointer;
+}

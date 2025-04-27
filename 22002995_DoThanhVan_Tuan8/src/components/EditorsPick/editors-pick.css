@@ -1,0 +1,89 @@
+.pick-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.editors-pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.editors-pick h2 {
+  font-size: 2rem;
+  color: #f44b87;
+  margin-bottom: 1rem;
+}
+
+.pick-list {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  gap: 30px;
+}
+
+.pick-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  margin: 0;
+  object-fit: cover;
+}
+
+.header-wish h6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.pick-item p {
+  padding: 5px;
+  font-size: small;
+  color: #000000;
+  text-align: left;
+}
+
+.header-wish {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wish img {
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.header-wish h4 {
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+}
+
+.card-content {
+  width: 100%;
+}
+
+.card-content .img-avatar {
+  width: 40px;
+  height: 40px;
+}
